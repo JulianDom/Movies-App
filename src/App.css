@@ -14,10 +14,15 @@
 
 h3{
   color:#fff;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 4vh;
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
 }
 
 .header {
@@ -60,44 +65,6 @@ li {
   align-items: center;
 }
 
-@media (max-device-width: 767px)
- 
-  
-{
-  *{
-    height: 100%;
-  }
-  .App {
-    background-color: #171010 ;
-    height: 100vh;
-    width: 100vh;
-    
-  }
-  .navbar {
-    width: 100%;
-    height:100%
-  }
-
-  .navbar {
-      color: #FFF;
-      display: flex;
-      align-items: center;
-      height: 40px;
-      }
-    
-  .navbar > ul {
-      list-style-type: none;
-      display: flex;
-      padding-right: 500px;
-      
-    
-    }
-    footer {
-      height: 10px;
-      background-color: red;
-    }
-}
-
 
 .main-content{
   color: #FFF;
@@ -107,9 +74,30 @@ li {
   align-items: center;
   
 }
+.movie-card {
+  display: flex;
+  background-color: #383535;
+  border-radius: 5px;
+  
+}
+.movie-img {
+  width: 25%;
+  position: relative;
+  border-radius: 10px;
+}
+
+.movie-items {
+  position: relative;
+  right: 15vh;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+
+}
 
 .footer {
-  height: 113px;
+  height: 15vh;
+  
 }
 
 

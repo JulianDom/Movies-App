@@ -5,8 +5,8 @@ import App from '../App'
 
 export default function Footer() {
     return (
-        <footer className='footer'>
-            <h3>im the footer</h3>
+        <footer>
+             <div className='footer'><h3>im the footer</h3></div>
             </footer>
     )
 }

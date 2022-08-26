@@ -7,7 +7,7 @@ export default function navbar() {
         <header className='header'>
             <nav className='navbar'>
                  <div className='web-title'>
-                    <h2>Cinema</h2>
+                    <h1>Cinema</h1>
                  </div>
                  <ul className='list'>
                     <li>Movies</li>
